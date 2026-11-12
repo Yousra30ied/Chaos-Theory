@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chaos Theory HC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a class="navbar-brand" href="#hero">CHAOS THEORY HC</a>
+      <nav class="navbar-links" id="menu">
+        <a href="#about">BANDA</a>
+        <a href="#members">MIEMBROS</a>
+        <a href="#ep">EP</a>
+        <a href="#merch">MERCH</a>
+      </nav>
+      <a class="menu-button" id="menu-button" href="#">MENÚ</a>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-intro">
+          Somos una banda fusión de hardcore emo nacida en Barcelona a
+          principios de 2025. Sin etiquetas exactas pero con mucha intensidad!
+        </div>
+
+        <div class="hero-logo">
+          <img src="images/logo.png" alt="Chaos Theory" />
+        </div>
+
+        <div class="hero-footer">
+          <a href="https://www.instagram.com/chaostheory_hc" target="_blank"
+            >@chaostheory_hc</a
+          >
+        </div>
+      </section>
+
+      <section class="container" id="about">
+        <div class="heading">
+          <h2>NOSOTROS</h2>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <p>
+              <span class="accent">Chaos Theory</span> es una banda de hardcore
+              melódico y metalcore formada en Barcelona a principios de 2025.
+            </p>
+            <p>
+              Desde el concierto de Picas Rock, la banda ha pasado por una serie
+              de bajistas hasta dar con
+              <span class="accent">Cherry</span>, que completa la formación
+              actual.
+            </p>
+          </div>
+
+          <div class="column">
+            <p>
+              Influenciados por la nueva oleada del hardcore, rinden tributo a
+              grupos de la escena como:
+              <span class="accent"
+                >Lashout (Hardcore Punk), Bosque (Hardcore Punk), Fiddlehead
+                (Hardcore Punk), King of Pain (Hardcore Punk), Heaven
+                (Post-Hardcore), etc.</span
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container" id="members">
+        <div class="heading">
+          <h2>MIEMBROS</h2>
+        </div>
+
+        <div class="grid">
+          <div class="card member" data-name="Eric">
+            <img src="images/Eric.jpg" alt="Eric" />
+            <div class="member-info">
+              <div class="role">VOCALISTA</div>
+              <div class="name">ERIC</div>
+            </div>
+          </div>
+
+          <div class="card member" data-name="Edu">
+            <img src="images/Edu.jpg" alt="Edu" />
+            <div class="member-info">
+              <div class="role">GUITARRA SOLISTA</div>
+              <div class="name">EDU</div>
+            </div>
+          </div>
+
+          <div class="card member" data-name="Gael">
+            <img src="images/Gael.jpg" alt="Gael" />
+            <div class="member-info">
+              <div class="role">GUITARRA RÍTMICA</div>
+              <div class="name">GAEL</div>
+            </div>
+          </div>
+
+          <div class="card member" data-name="Cherry">
+            <img src="images/Banda.jpg" alt="Cherry y la banda" />
+            <div class="member-info">
+              <div class="role">BAJO</div>
+              <div class="name">CHERRY</div>
+            </div>
+          </div>
+
+          <div class="card member" data-name="Vel">
+            <img src="images/Vel.jpg" alt="Vel" />
+            <div class="member-info">
+              <div class="role">BATERÍA</div>
+              <div class="name">VEL</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container center" id="ep">
+        <div class="heading">
+          <h2>NUEVO <span class="accent">EP</span></h2>
+        </div>
+
+        <div class="card cover">
+          <div class="placeholder-text">CHAOS<br />THEORY<br />EP</div>
+        </div>
+
+        <p class="caption">
+          Estamos grabando demos para nuestro próximo EP,<br />
+          ¡Estate atento a las redes de <span class="white">Chaos Theory</span>!
+        </p>
+      </section>
+
+      <section class="container center" id="merch">
+        <div class="heading">
+          <h2>MER<span class="accent">CH</span></h2>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="card product">
+            <div class="product-image">CAMISETA</div>
+            <div class="product-status">PRÓXIMAMENTE</div>
+          </div>
+
+          <div class="card product">
+            <div class="product-image">SUDADERA</div>
+            <div class="product-status">PRÓXIMAMENTE</div>
+          </div>
+
+          <div class="card product">
+            <div class="product-image">PEGATINAS</div>
+            <div class="product-status">PRÓXIMAMENTE</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="https://www.instagram.com/chaostheory_hc" target="_blank"
+        >@chaostheory_hc</a
+      >
+    </footer>
+    <!-- mensaje -->
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
